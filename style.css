@@ -1,0 +1,118 @@
+
+header svg {
+    position: absolute;
+    left: 8.89%;
+    right: 84.44%;
+    top: 4.5%;
+    bottom: 92.5%;
+    mix-blend-mode: normal;
+    opacity: 0.23;
+}
+
+header p {
+    position: absolute;
+    width: 142px;
+    height: 18px;
+    left: 109px;
+    top: 39px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #212529;
+}
+
+
+/* informações de contato*/
+div p {
+    position: absolute;
+    width: 250px;
+    height: 24px;
+    left: 20px;
+    top: 181px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+}
+/*  barra de comentario do N do celular */
+.celular {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 157px;
+    height: 32px;
+    left: calc(50% - 157px/2 - 81.5px);
+    top: calc(50% - 32px/2 - 126px);
+    border-radius: 6px;
+}
+/* barra do email*/
+.mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 157px;
+    height: 32px;
+    left: calc(50% - 157px/2 + 81.5px);
+    top: calc(50% - 32px/2 - 126px);
+    border-radius: 6px;
+}
+
+/* barra do CPF */
+
+.cpf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 320px;
+    height: 32px;
+    left: calc(50% - 320px/2);
+    top: calc(50% - 32px/2 - 86px);
+    border-radius: 6px;
+}
+
+/* barra do mensagem*/
+.msg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 320px;
+    height: 32px;
+    left: calc(50% - 320px/2);
+    top: calc(50% - 32px/2 - 46px);
+    border-radius: 6px;
+}
+
+/* botao de continuar */
+.continuar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+
+    position: absolute;
+    height: 32px;
+    left: 20px;
+    right: 20px;
+    top: 716px;
+
+    background: #FF6C0E;
+    border-radius: 6px;
+    
+}
